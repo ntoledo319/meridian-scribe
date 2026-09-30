@@ -1,0 +1,25 @@
+{
+  "_comment": "Offline demo fixture (NOT an AssemblyAI output captured by us): a synthetic meeting transcript in the AssemblyAI transcript JSON shape (utterances with speaker labels + auto chapters). Used only when ASSEMBLYAI_API_KEY is unset, so the extraction/minutes pipeline can be evaluated end-to-end without an API key. With a key set, real audio is transcribed by AssemblyAI and this file is never read.",
+  "status": "completed",
+  "text": "Speaker A: Thanks everyone for joining the launch sync for the Meridian release. Speaker B: Quick status on the docs migration — the API reference is done, but the streaming guide needs another pass. I will finish it by Friday. Speaker A: Great. We agreed yesterday that we're going with the WebSocket-first approach for the realtime API, so that's final. Speaker C: On pricing, we need to decide between usage-based and seat-based before the beta announcement. Speaker A: Let's go with usage-based for the beta and revisit seat-based in Q2. Speaker B: I'll draft the pricing page copy and send it for review by Tuesday. Speaker C: We should also schedule the security review before launch — that's a blocker. Speaker A: Agreed. Chris, can you own that? Speaker C: Yes, I'll schedule the security review this week and follow up with the auditors. Speaker A: Action items: docs guide by Friday, pricing copy by Tuesday, security review scheduled this week. Anything else? Speaker B: One more — we need to prepare the demo environment for the launch webinar next week. I'll handle it. Speaker A: Perfect. Thanks all.",
+  "utterances": [
+    {"speaker": "A", "text": "Thanks everyone for joining the launch sync for the Meridian release."},
+    {"speaker": "B", "text": "Quick status on the docs migration — the API reference is done, but the streaming guide needs another pass. I will finish it by Friday."},
+    {"speaker": "A", "text": "Great. We agreed yesterday that we're going with the WebSocket-first approach for the realtime API, so that's final."},
+    {"speaker": "C", "text": "On pricing, we need to decide between usage-based and seat-based before the beta announcement."},
+    {"speaker": "A", "text": "Let's go with usage-based for the beta and revisit seat-based in Q2."},
+    {"speaker": "B", "text": "I'll draft the pricing page copy and send it for review by Tuesday."},
+    {"speaker": "C", "text": "We should also schedule the security review before launch — that's a blocker."},
+    {"speaker": "A", "text": "Agreed. Chris, can you own that?"},
+    {"speaker": "C", "text": "Yes, I'll schedule the security review this week and follow up with the auditors."},
+    {"speaker": "A", "text": "Action items: docs guide by Friday, pricing copy by Tuesday, security review scheduled this week. Anything else?"},
+    {"speaker": "B", "text": "One more — we need to prepare the demo environment for the launch webinar next week. I'll handle it."},
+    {"speaker": "A", "text": "Perfect. Thanks all."}
+  ],
+  "chapters": [
+    {"headline": "Launch sync kickoff and docs migration status", "start": 0, "end": 30000},
+    {"headline": "Realtime API architecture decision", "start": 30000, "end": 55000},
+    {"headline": "Pricing model decision for beta", "start": 55000, "end": 90000},
+    {"headline": "Security review, action items and wrap-up", "start": 90000, "end": 140000}
+  ]
+}
